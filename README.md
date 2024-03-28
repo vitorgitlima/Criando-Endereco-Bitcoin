@@ -33,6 +33,13 @@ Este é um programa básico em Node.js que demonstra como criar um endereço Bit
 
 Assista esta [Paylist do Tiago Salem](https://www.youtube.com/watch?v=RITeGob-eb0&list=PLmDINmHIqrRqtnm0zzdoUm7GTXaEwFgG_) para uma explicação detalhada sobre como este programa foi desenvolvido.
 
+- Diagrama
+https://en.bitcoin.it/wiki/Technical_background_of_version_1_Bitcoin_addresses
+- Lista de prefixos
+https://en.bitcoin.it/wiki/List_of_address_prefixes
+
+
+
 
 ## Pré-requisitos
 
@@ -46,15 +53,31 @@ Assista esta [Paylist do Tiago Salem](https://www.youtube.com/watch?v=RITeGob-eb
     npm install
     ```
 
-2. Execute o programa, passando a chave privada como argumento de linha de comando:
+# Criando um Endereço Bitcoin do Zero
 
-    ```
-    node 4-gera-endereco-bitcoin.js SUA_CHAVE_PRIVADA
-    ```
+1. **Gerar Chave Privada**
 
-    Substitua `SUA_CHAVE_PRIVADA` pela chave privada que deseja usar.
+   Execute o programa `1-cria-chaveprivada.js` para gerar uma chave privada:
 
-![image](https://github.com/vitorgitlima/Criando-Endereco-Bitcoin/assets/50456932/bfa201fa-a237-49f5-9831-df23e6829270)
+Anote a chave privada gerada.
+
+2. **Gerar WIF (Wallet Import Format)**
+
+Copie a chave privada gerada no passo anterior e execute o programa `2-gera-wif.js` passando a chave privada como argumento:
+
+
+3. **Encontrar Chave Pública**
+
+Copie a chave privada gerada no passo 1 e execute o programa `3-gera-chave-publica.js` passando a chave privada como argumento:
+
+`Anote a chave pública gerada.`
+
+4. **Gerar Endereço Bitcoin**
+
+Copie a chave pública gerada no passo anterior e execute o programa `4-gera-endereco-bitcoin.js` passando a chave pública como argumento.
+O endereço Bitcoin correspondente será exibido como saída.
+
+
 
 
    
