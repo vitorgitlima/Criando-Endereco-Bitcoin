@@ -29,7 +29,7 @@ Este é um programa básico em Node.js que demonstra como criar um endereço Bit
 - **bs58**: Biblioteca para codificar e decodificar dados usando o Base58Check.
 - **bitcoinjs-lib**: Biblioteca para interagir com a rede Bitcoin, incluindo a criação de chaves e endereços.
 
-## Referência
+## Referências
 
 Assista esta [Paylist do Tiago Salem](https://www.youtube.com/watch?v=RITeGob-eb0&list=PLmDINmHIqrRqtnm0zzdoUm7GTXaEwFgG_) para uma explicação detalhada sobre como este programa foi desenvolvido.
 
