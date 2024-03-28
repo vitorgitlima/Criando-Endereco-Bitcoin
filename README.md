@@ -31,7 +31,7 @@ Este é um programa básico em Node.js que demonstra como criar um endereço Bit
 
 ## Referência
 
-Assista a este [vídeo](https://www.youtube.com/watch?v=RITeGob-eb0&list=PLmDINmHIqrRqtnm0zzdoUm7GTXaEwFgG_) para uma explicação detalhada sobre como este programa foi desenvolvido.
+Assista esta [Paylist do Tiago Salem](https://www.youtube.com/watch?v=RITeGob-eb0&list=PLmDINmHIqrRqtnm0zzdoUm7GTXaEwFgG_) para uma explicação detalhada sobre como este programa foi desenvolvido.
 
 
 ## Pré-requisitos
@@ -53,5 +53,8 @@ Assista a este [vídeo](https://www.youtube.com/watch?v=RITeGob-eb0&list=PLmDINm
     ```
 
     Substitua `SUA_CHAVE_PRIVADA` pela chave privada que deseja usar.
+
+![image](https://github.com/vitorgitlima/Criando-Endereco-Bitcoin/assets/50456932/bfa201fa-a237-49f5-9831-df23e6829270)
+
 
    
