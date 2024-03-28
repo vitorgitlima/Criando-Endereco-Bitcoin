@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "cryptojs": "^2.5.3"
+  },
+  "dependencies": {
+    "bitcoinjs-lib": "^6.1.5",
+    "bs58": "^5.0.0",
+    "eccrypto": "^1.1.6",
+    "secp256k1": "^5.0.0"
+  }
+}
