@@ -59,23 +59,23 @@ https://en.bitcoin.it/wiki/List_of_address_prefixes
 
    Execute o programa `1-cria-chaveprivada.js` para gerar uma chave privada:
 
-Anote a chave privada gerada.
+   Anote a chave privada gerada.
 
 2. **Gerar WIF (Wallet Import Format)**
 
-Copie a chave privada gerada no passo anterior e execute o programa `2-gera-wif.js` passando a chave privada como argumento:
-
+   Copie a chave privada gerada no passo anterior e execute o programa `2-gera-wif.js` passando a chave privada como argumento.
 
 3. **Encontrar Chave Pública**
 
-Copie a chave privada gerada no passo 1 e execute o programa `3-gera-chave-publica.js` passando a chave privada como argumento:
+   Copie a chave privada gerada no passo 1 e execute o programa `3-gera-chave-publica.js` passando a chave privada como argumento:
 
-`Anote a chave pública gerada.`
+   Anote a chave pública gerada.
 
 4. **Gerar Endereço Bitcoin**
 
-Copie a chave pública gerada no passo anterior e execute o programa `4-gera-endereco-bitcoin.js` passando a chave pública como argumento.
-O endereço Bitcoin correspondente será exibido como saída.
+   Copie a chave pública gerada no passo anterior e execute o programa `4-gera-endereco-bitcoin.js` passando a chave pública como argumento.
+
+   O endereço Bitcoin correspondente será exibido como saída.
 
 
 
